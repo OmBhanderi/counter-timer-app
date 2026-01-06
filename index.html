@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Counter & Timer App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Counter & Timer App</h1>
+
+      <!-- Counter Section -->
+      <div class="card">
+        <h2>Counter</h2>
+        <div id="counterValue">0</div>
+
+        <div class="button-group">
+          <button id="decrementBtn">-</button>
+          <button id="incrementBtn">+</button>
+        </div>
+
+        <button id="resetCounterBtn" class="reset-btn">Reset Counter</button>
+      </div>
+
+      <!-- Timer Section -->
+      <div class="card">
+        <h2>Countdown Timer</h2>
+
+        <div id="timerDisplay">00:00</div>
+
+        <input
+          type="number"
+          id="timeInput"
+          placeholder="Enter seconds"
+          min="1"
+        />
+
+        <div class="button-group">
+          <button id="startTimerBtn">Start</button>
+          <button id="stopTimerBtn">Stop</button>
+        </div>
+
+        <button id="resetTimerBtn" class="reset-btn">Reset Timer</button>
+      </div>
+    </div>
+
+    <!-- You will add your JS file here -->
+    <script src="script.js"></script>
+  </body>
+</html>
